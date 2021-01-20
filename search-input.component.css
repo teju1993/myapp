@@ -1,0 +1,22 @@
+.table{
+    border: 1px solid;  
+    width: 100px;
+    height:55px;
+    margin-top: 15px;
+    
+   }
+   td {
+    text-align: center;
+    padding:11px;
+    border-bottom: 1px solid #ddd;
+  }
+   .form-control{
+       width:150px;
+       height:20px;
+       display: flex;
+       align-items: center;
+       padding:20px;
+       border-radius: 22px;
+      
+   }
+   

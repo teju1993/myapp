@@ -1,0 +1,8 @@
+.table{
+    border: 1px solid;   
+   }
+   th, td {
+    padding: 11px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }

@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>
+    <strong>
+    User List :{{UserName}}
+    </strong>
+    </h2>
+
+ <table class="table table-bordered table-striped">
+         <thead>
+             <tr>
+             <td>User Id</td>
+               <td>User Name</td>
+               <td>Qualification</td>
+             </tr>
+         </thead>
+         <tbody>
+           <tr *ngFor="let p of FilterProducts">
+           <td>{{p.UserId}}</td>
+           <td>{{p.UserName}}</td>
+           <td>{{p.Qualification}}</td>
+           </tr>
+         </tbody>
+      </table>
+      </div>
