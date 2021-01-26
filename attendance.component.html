@@ -1,0 +1,20 @@
+<h1 class="heading">Salesman Attendance Report</h1>
+  
+  <table class="table table-striped">
+    <thead>
+        <tr>
+           
+          <th>In Time</th>
+          <th>Out Time</th>
+          <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+     
+          <tr *ngFor="let s of att">
+           <td>{{ s.in_time }}</td>
+          <td>{{ s.out_time }}</td>
+        <td><button type="submit" value="ShowDetails">Show Details</button>
+      </tr>
+    </tbody>
+  </table>

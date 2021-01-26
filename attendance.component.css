@@ -1,0 +1,18 @@
+.heading{
+    text-align: center;
+    margin:0px;
+    padding-top: 22px;
+}
+.table {
+    width:75%;
+    padding-top: 22px;
+    align-content: center;
+    border: 1px solid black;
+    margin-left: 32px;
+    margin-top: 22px;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
